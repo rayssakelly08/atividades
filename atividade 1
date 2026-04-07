@@ -1,0 +1,40 @@
+6200.7840]
+(c) Microsoft Corporation. Todos os direitos reservados.
+
+C:\Users\202530018335>cd desktop
+
+C:\Users\202530018335\Desktop>cd aula-git
+
+C:\Users\202530018335\Desktop\aula-git>git init
+Reinitialized existing Git repository in C:/Users/202530018335/Desktop/aula-git/.git/
+
+C:\Users\202530018335\Desktop\aula-git>git add README.md
+fatal: pathspec 'README.md' did not match any files
+
+C:\Users\202530018335\Desktop\aula-git>git config --global user.name "rayssakelly"
+
+C:\Users\202530018335\Desktop\aula-git>git config --global user.email "kellyrayssa995@gmail.com"
+
+C:\Users\202530018335\Desktop\aula-git>git remote add origin https://github.com/rayssakelly08/aula-git.git
+error: remote origin already exists.
+
+C:\Users\202530018335\Desktop\aula-git>https://github.com/rayssakelly08/aula-git.git
+'https:' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\202530018335\Desktop\aula-git>git add .
+
+C:\Users\202530018335\Desktop\aula-git>git commit -m "dino feliz
+On branch main
+nothing to commit, working tree clean
+
+C:\Users\202530018335\Desktop\aula-git>git push -u origin main
+info: please complete authentication in your browser...
+remote: Permission to rayssakelly08/aula-git.git denied to kellyrayssa995-prog.
+fatal: unable to access 'https://github.com/rayssakelly08/aula-git.git/': The requested URL returned error: 403
+
+C:\Users\202530018335\Desktop\aula-git>git clone https://github.com/rayssakelly08/aula-git.git
+Cloning into 'aula-git'...
+warning: You appear to have cloned an empty repository.
+
+C:\Users\202530018335\Desktop\aula-git>

@@ -1,0 +1,65 @@
+Página principal
+<html>
+<body>
+<head>
+ <h1> Meu site no HTML </h1>
+<article>
+  <h2>Bem-vindo(a)!</h2>
+  <p>
+    Oiii! Eu sou Rayssa. Bem-vindo(a) à minha página de HTML.
+  </p>
+  <p>
+    Aqui você vai encontrar links para as próximas páginas, com o objetivo de fixar o conteúdo da matéria de Programação Web.
+  </p>
+</article>
+
+ <nav>
+<a href="hobbies.html"> Meus Hobbies: </a>
+</nav>
+<nav>
+<a href="contato.html">Contato</a>
+</nav>
+
+
+Página 2 - hobbies
+<html>
+    <body>
+        <head>
+    </body>
+    <H1> Meus Hobbies: </H1>
+
+<ul>
+<li> Tempo de qualidade com meu gato;</li>
+<li>Ler;</li>
+<li>Assistir filmes/documentários;</li>
+<li>Escutar música;</li>
+<li>Cozinhar.</li>
+
+<img src="https://desenio.pt/p/posters/marcas/snoopy/snoopy-love-poster/" alt="snoppe ">
+
+<a href="index.html">Voltar para a página inicial</a>
+
+</html>
+</head>
+
+
+Página 3 - contato
+<html>
+    <body>
+        <head>
+  <form>
+    <label>Nome:</label><br>
+    <input name="nome"><br><br>
+
+    <label>Email:</label><br>
+    <input name="email"><br><br>
+
+    <label>Mensagem:</label><br>
+    <input name="mensagem"><br><br>
+
+    <input type="submit" value="Enviar mensagem">
+    </form>
+  </body>
+  </head>
+</html>
+<a href="index.html"> retornar página principal </a>
